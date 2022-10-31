@@ -12,6 +12,7 @@ namespace CSharpIntro
             // change LastName to some name
             student1.DisplayName();
             Console.WriteLine(student1);
+            Console.WriteLine("{0, -15} {0, -15}", student1.FirstName);
         }
     }
 
