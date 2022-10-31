@@ -1,4 +1,4 @@
-    class Student
+/*    class Student
     {
         //Question 1
         //Complete the missing attributes & Properties and the incomplete student class constructor
@@ -27,3 +27,4 @@
             DateOfBirth = dob;
         }
     }
+    */

@@ -7,8 +7,9 @@ namespace CSharpIntro
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello World!"); 
-            Student student1 = new Student();
-            student1.FirstName = "John";
+            Student student1 = new Student("John", "Tan");
+            //student1.FirstName = "John";
+            // change LastName to some name
             student1.DisplayName();
         }
     }
@@ -18,6 +19,12 @@ namespace CSharpIntro
         private string firstName;
         private string lastName;
 
+        public Student(string fn, string ln)
+        {
+            FirstName = fn;
+            lastName = ln;
+        }
+
         public string FirstName
         {
             get { return firstName; }
@@ -25,11 +32,12 @@ namespace CSharpIntro
 
         }
 
-        
+        // property for LastName
 
         public void DisplayName()
         {
             Console.WriteLine(firstName);
+            // display lastName
         }
     }
 }
