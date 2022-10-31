@@ -11,6 +11,7 @@ namespace CSharpIntro
             //student1.FirstName = "John";
             // change LastName to some name
             student1.DisplayName();
+            Console.WriteLine(student1);
         }
     }
 
@@ -39,5 +40,11 @@ namespace CSharpIntro
             Console.WriteLine(firstName);
             // display lastName
         }
+
+        public override string ToString()
+        {
+            return "FirstName:" + FirstName + " LastName:" + lastName;
+        }
+
     }
 }
