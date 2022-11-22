@@ -6,13 +6,8 @@ namespace CSharpIntro
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!"); 
-            Student student1 = new Student("John", "Tan");
-            //student1.FirstName = "John";
-            // change LastName to some name
-            student1.DisplayName();
-            Console.WriteLine(student1);
-            Console.WriteLine("{0, -15} {0, -15}", student1.FirstName);
+            
+
         }
     }
 
