@@ -12,10 +12,11 @@ List<CashCard> cardList = new List<CashCard>();
 // c)	Call the InitCardList().
 InitCardList(cardList);
 // d)	Display the id and balance of all the CashCard objects.
+Console.WriteLine($"{"Id",-3} {"Balance"}");
 foreach (CashCard card in cardList)
 {
     // write code to print the header for Id and Balance
-    Console.WriteLine($"{"Id",-3} {"Balance"}");
+
     Console.WriteLine("{0:-3} {1:N2}", card.Id, card.Balance);
 }
 
