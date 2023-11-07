@@ -70,38 +70,3 @@ foreach (CashCard card in cardList)
             return "Id:" + Id + " Balance:" + Balance;
         }
     }
-/*
-    class Student
-    {
-        private string firstName;
-        private string lastName;
-
-        public Student(string fn, string ln)
-        {
-            FirstName = fn;
-            lastName = ln;
-        }
-
-        public string FirstName
-        {
-            get { return firstName; }
-            set { firstName = value; }
-
-        }
-
-        // property for LastName
-
-        public void DisplayName()
-        {
-            Console.WriteLine(firstName);
-            // display lastName
-        }
-
-        public override string ToString()
-        {
-            return "FirstName:" + FirstName + " LastName:" + lastName;
-        }
-
-    }
-
-*/
