@@ -15,8 +15,6 @@ InitCardList(cardList);
 Console.WriteLine($"{"Id",-3} {"Balance"}");
 foreach (CashCard card in cardList)
 {
-    // write code to print the header for Id and Balance
-
     Console.WriteLine("{0:-3} {1:N2}", card.Id, card.Balance);
 }
 
