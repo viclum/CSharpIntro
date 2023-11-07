@@ -14,7 +14,9 @@ InitCardList(cardList);
 // d)	Display the id and balance of all the CashCard objects.
 foreach (CashCard card in cardList)
 {
-    Console.WriteLine("{0} {1}", card.Id, card.Balance);
+    // write code to print the header for Id and Balance
+    Console.WriteLine($"{"Id",-3} {"Balance"}");
+    Console.WriteLine("{0:-3} {1:N2}", card.Id, card.Balance);
 }
 
 // e)	Write a method Search() with the method signature given below to search and return the cash card in the list that has the given id. 
